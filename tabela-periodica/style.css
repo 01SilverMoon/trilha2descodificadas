@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+body{
+    font-family:'Work Sans', sans-serif;
+    color:rgb(255, 255, 255);
+    padding: 2em 2em 2em 2em;
+    background-color: rgb(22, 16, 41);
+    text-align: center;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+:root{
+	--bg-preto:rgb(0,0,0);
+	--nao-metal:#02E687;
+	--gas-nobre:#0298E6;
+	--metal-alcalino:#E69125;
+	--metal-alcalino-terroso:#E6E025;
+	--semimetal:#71E625;
+	--halogenio:#02997C;
+	--outros-metais:#B4DCE8;
+	--metal-transicao:#E254EA;
+	--lantanideo:#25E6BE;
+	--actinidio:#E2819E;
+}
+
+.nao-metal{
+	color:var(--nao-metal);
+}
+	
+.gas-nobre{
+	color:var(--gas-nobre);
+}
+
+.metal-alcalino{
+	color:var(--metal-alcalino);
+}
+	
+.metal-alcalino-terroso{
+	color:var(--metal-alcalino-terroso);
+}
+	
+.semimetal{
+	color:var(--semimetal);
+}
+	
+.halogenio{
+	color:var(--halogenio);
+}
+	
+.outros-metais{
+	color:var(--outros-metais);
+}
+	
+.metal-transicao{
+	color:var(--metal-transicao);
+}
+	
+.lantanideo{
+	color:var(--lantanideo);
+}
+	
+.actinidio{
+	color:var(--actinidio);
+}
+
+.vazia{
+    border: none;
+}
+
+.legenda{
+    font-size: .95em;
+    font-weight: .8em;
+    width: 4.4em;
+}
+
+table{
+    max-width:81em;
+	display:block;
+    margin-left: 8em;
+    margin-top: 1%;
+}
+
+h1{
+    font-weight:bolder;
+    color: grey;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 1%;
+}
+
+h2{
+    font-size: .8em;
+    text-align: center;
+    height: .2em;
+}
+
+p{
+    font-size: .70em;
+    text-align: center;
+    height: .2em;
+}
+
+td{
+    border: solid;
+    border-radius: .50em;
+    display:flexbox;
+    text-align: start;
+	background-color: rgb(22, 16, 41);
+}
+
+span{
+    font-size:.65em;
+	position:absolute;
+}
+
+footer{
+	font-size:.75em;
+	text-align:left;
+}
+
+ul{
+	display:inline-flexbox;
+	flex-wrap:wrap;
+    top:1em;
+}
+
+li{
+	flex-basis:100%;
+	line-height:1.25;
+	margin-bottom:1em;
+    display: inline-flex;
+    margin-left: 1.5em;
+    text-align: justify;	
+}
+
+li:before{
+	content:'';
+	display:inline-block;
+	width:1em;
+	height:1em;
+	border:.150em solid;
+	border-radius:.5rem;	
+	margin-right:.5em;
+	position:relative;
+}
