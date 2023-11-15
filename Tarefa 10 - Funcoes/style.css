@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2? family= Kdam+Thmor+Pro & family= Nunito:wght@500 & family= Work+Sans:wght@300 & display=swap' );
+body {
+    background-color: #d9b592;
+}
+div {
+    width: 300px;
+    border: 15px solid #e9c4a0;
+    border-radius: 5px;
+    padding: 50px;
+    margin: 20px;
+    text-align: center;
+    color: #ffddb8;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    display: block;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+  }
+  h1{
+    text-align: center;
+    color: #b9ddff;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+  }
+  h2 {
+    text-align: center;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: #b9ddff;
+  }
+  button {
+    border-radius: 4px;
+    color: #7a5c3c;
+    background-color: #d9b592;
+  }
